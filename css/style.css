@@ -179,6 +179,10 @@ body {
   align-items: center;
   justify-content: center;
 } 
+.header__button {
+  flex: 0 0 auto;
+  flex-wrap: nowrap; 
+}
 
 /*-----------Main-page------------------*/
 .main__content {
