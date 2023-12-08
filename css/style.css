@@ -533,6 +533,7 @@ padding-top: 120px;
   padding: 9px 9.8px 9px 10px;
 }
 .item-blog__img {
+  max-width: 395px;
   width: 100%;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
