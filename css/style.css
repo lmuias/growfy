@@ -943,5 +943,7 @@ padding-top: 120px;
  }
  .main__buttons {
   font-size: 12px;
+   row-gap: 15px
+   aling-items: center;
  }
 }
