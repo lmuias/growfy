@@ -781,3 +781,164 @@ padding-top: 120px;
   justify-content: center;
   padding: 46.4px 0px;
 }
+
+
+
+/*-----Media----*/
+@media (max-width:1082px) {
+  .advantages__container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .images__group {
+    align-self: center;
+  }
+  .reviews__content {
+    flex-wrap: wrap;
+  }
+
+  .reviews__items {
+    flex-wrap: wrap;
+  }
+
+  .footer__main {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 991.98px) {
+  .button {
+    padding: 14px 20px;
+  }
+  .header__container,
+  .menu__list {
+    column-gap: 20px;
+  }
+  .services__container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .main__actions {
+    align-self: center;
+  }
+}
+@media (max-width: 919.98px) {
+  
+  .reviews__content {
+    row-gap: 25px;
+    justify-content: center;
+  }
+}
+@media (max-width: 791.98px) {
+  .menu__link {
+    font-size: 12px;
+  }
+  .cart-header__text {
+    font-size: 14.6px;
+  }
+  .cart-header__quantity {
+    font-size: 11px;
+    width: 20px;
+    height: 20px;
+  }
+  .header__container {
+    column-gap: 15px;
+    min-height: 80px;
+  }
+  .button {
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+  .main__container {
+    flex-wrap: wrap;
+    gap:35px
+  }
+ .main__actionsin__images {
+  display: flex;
+  flex: 1 1 100%;
+ }
+ .main__container {
+  justify-content: center;
+ }
+
+
+ .blog__examples {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+ }
+
+
+ .scaling__content {
+  flex-wrap: wrap;
+  row-gap: 25px;
+ }
+}
+.header__logotip {
+  width: 100%;
+  min-width: 100px;
+}
+
+
+
+
+@media (max-width: 594px) {
+  .main__buttons {
+    text-wrap: nowrap;
+  }
+}
+@media (max-width: 440px) {
+  .cart-header__text {
+    font-size: 9.6px;
+  }
+  .cart-header__quantity {
+    font-size: 6px;
+    width: 15px;
+    height: 15px;
+    align-self: center;
+  }
+  .button {
+    padding: 5px 10px;
+    font-size: 9px;
+  }
+  .header__container {
+    column-gap: 10px;
+    min-height: 80px;
+  }
+  .header__logotip {
+    min-width: 80px;
+  }
+  .menu__link {
+    font-size: 9px;
+  }
+  .title {
+    font-size: 32px;
+    line-height: normal;
+  }
+  .subtitle {
+    font-size: 14px;
+    line-height: normal;
+  }
+  .list_item {
+    font-size: 12px
+  }
+
+ .card__title {
+  font-size: 16px;
+ }
+ .card__text {
+  font-size: 12px;
+ }
+.footer__subcribe {
+  align-items: center;
+}
+ .subcribe-footer__header {
+  font-size: 14px;
+ }
+ .subcribe-footer__text {
+  font-size: 12px;
+ }
+ #footer__email {
+  font-size: 12px;
+ }
+}
