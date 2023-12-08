@@ -83,6 +83,7 @@ body {
   line-height: 27px; /* 150% */
 }
 .advertisment {
+  display: inline-block;
   font-weight: 300;
   font-size: 11px;
   line-height: 17.28px;
