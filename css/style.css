@@ -205,6 +205,7 @@ body {
   display: flex;
   flex-direction: column;
   row-gap: 30px;
+  padding-top: 120px;
 }
 .main {
   padding-top: 160px;
@@ -220,10 +221,6 @@ body {
 .main__container {
   display: flex;
   justify-content: space-between;
-}
-.main__content {
-flex: 0 1 50%;
-padding-top: 120px;
 }
 .page__main {
   margin-bottom: 192px;
