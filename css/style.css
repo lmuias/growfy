@@ -47,8 +47,6 @@ button {
   background-color: inherit;
 }
 
-@import url(/reset/reset.css);
-
 body {
   font-family: 'Poppins';
   font-weight: 300;
@@ -86,7 +84,7 @@ body {
   line-height: 27px; /* 150% */
 }
 .advertisment {
-  display: inline-block;
+  display: inline-block!important;;
   font-weight: 300;
   font-size: 11px;
   line-height: 17.28px;
