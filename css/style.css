@@ -207,10 +207,13 @@ body {
   row-gap: 30px;
   padding-top: 120px;
 }
+.main__actions {
+  display: flex;
+  gap: 32px;
 .main {
   padding-top: 160px;
 }
-.main__tex {
+.main__text {
   max-width: 490px;
 }
 
