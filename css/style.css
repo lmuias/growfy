@@ -231,7 +231,6 @@ padding-top: 120px;
 /*-----Main-buttons------*/
 .button-dark {
   background-color: rgba(129, 129, 139, 0.2);
-  margin-left: 32px;
 }
 .button-dark:hover {
   background-color: rgba(237, 237, 243, 0.2);
