@@ -150,15 +150,6 @@ body {
 }
 
 
-@media (max-width: 991.98px) {
-  .button {
-    padding: 14px 20px;
-  }
-  .header__container,
-  .menu__list {
-    column-gap: 20px;
-  }
-}
 .menu__link {
   font-size: 16px;
   line-height: 25.6px;
@@ -171,9 +162,9 @@ body {
 .icon-menu {
   display: none;
 }
-
 .cart-header {
   display: flex;
+  flex-wrap: nowrap;
   gap: 5px;
 }
 .cart-header__text {
@@ -194,9 +185,10 @@ body {
   font-weight: 500;
   background: rgba(129, 129, 139, 0.3);
   border-radius: 50%;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: nowrap;
 } 
 
 /*-----------Main-page------------------*/
@@ -205,15 +197,11 @@ body {
   display: flex;
   flex-direction: column;
   row-gap: 30px;
-  padding-top: 120px;
 }
-.main__actions {
-  display: flex;
-  gap: 32px;
 .main {
   padding-top: 160px;
 }
-.main__text {
+.main__tex {
   max-width: 490px;
 }
 
@@ -225,10 +213,18 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.main__content {
+
+padding-top: 120px;
+}
 .page__main {
   margin-bottom: 192px;
 }
 /*-----Main-buttons------*/
+.main__actions {
+  display: flex;
+  gap: 32px;
+}
 .button-dark {
   background-color: rgba(129, 129, 139, 0.2);
 }
@@ -267,8 +263,7 @@ body {
 }
 .clients__marks {
   display: flex;
-  justify-content: space-around;
-  gap: 15px;
+  gap: 30px;
   margin-top: 24px;
   flex-wrap: wrap;
 }
@@ -299,7 +294,7 @@ body {
 }
 .services__container {
   display: flex;
-  justify-content: space-between;
+  gap: 105px;
 }
 
 /*----service-items-----*/
@@ -404,7 +399,7 @@ body {
   border-radius: 50%;
   width: 32px;
   height: 32px;
-  background: rgba(129, 129, 139, 0.1) url(/growfy/img/advantages/check-solid\ 1.svg) center no-repeat;
+  background: rgba(129, 129, 139, 0.1) url(/grofy/img/advantages/check-solid\ 1.svg) center no-repeat;
 }
 /*----------Reviews-------------------*/
 .content {
@@ -507,7 +502,7 @@ body {
 
 
 .blog__examples {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(3, 1fr);
   gap: 48px;
 }
@@ -781,9 +776,7 @@ body {
   padding: 46.4px 0px;
 }
 
-
-
-/*-----Media----*/
+/**------Media--------*/
 @media (max-width:1082px) {
   .advantages__container {
     flex-wrap: wrap;
@@ -943,7 +936,12 @@ body {
  }
  .main__buttons {
   font-size: 12px;
-   row-gap: 15px
-   aling-items: center;
+  row-gap: 15px;
+  align-items: center;
+ }
+ .clients__marks {
+  display: flex;
+  justify-content: center;
+  max-width: 80%;
  }
 }
